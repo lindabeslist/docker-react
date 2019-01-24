@@ -17,6 +17,7 @@ RUN npm run build
 # copy this path to the run phase of nginx
 
 FROM nginx
+EXPOSE 80
 
 # https://hub.docker.com/_/nginx
 # COPY static-html-directory /usr/share/nginx/html
